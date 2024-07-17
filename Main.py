@@ -10,11 +10,11 @@ ASOAP = st.Page(
 )
 
 Beneficiary = st.Page(
-    "reports/Beneficiary.py", title="Beneficiary", icon=":material/dashboard:", default=True
+    "Pages/Beneficiary.py", title="Beneficiary", icon=":material/dashboard:", default=True
 )
 
 Tools = st.Page(
-    "reports/Tools.py", title="Tools", icon=":material/dashboard:", default=True
+    "Pages/Tools.py", title="Tools", icon=":material/dashboard:", default=True
 )
 
 pg = st.navigation(
