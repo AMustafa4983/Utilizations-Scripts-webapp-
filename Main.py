@@ -1,16 +1,11 @@
 import streamlit as st
 
-st.title("Main Page")
-st.write('''
-This is Main Page.
-''')
-
 asoap = st.Page(
-    "Pages/ASOAP.py", title="ASOAP", icon=":material/dashboard:", default=True
+    "Pages/ASOAP.py", title="ASOAP", icon=":material/dashboard:", default=False
 )
 
 Beneficiary = st.Page(
-    "Pages/Beneficiary.py", title="Beneficiary", icon=":material/dashboard:", default=True
+    "Pages/Beneficiary.py", title="Beneficiary", icon=":material/dashboard:", default=False
 )
 
 Tools = st.Page(
