@@ -5,7 +5,7 @@ st.write('''
 This is Main Page.
 ''')
 
-ASOAP = st.Page(
+asoap = st.Page(
     "Pages/ASOAP.py", title="ASOAP", icon=":material/dashboard:", default=True
 )
 
@@ -20,6 +20,8 @@ Tools = st.Page(
 pg = st.navigation(
     {
         "Files": [Tools],
-        "Data": [ASOAP, Beneficiary],
+        "Data": [asoap, Beneficiary],
     }
 )
+
+pg.run()
